@@ -82,20 +82,14 @@ t.test((subset(Coil_table, Manufacturing_Lot == "Lot2")$PSI),mu=(1500))
 	One Sample t-test
 
 data:  (subset(Coil_table, Manufacturing_Lot == "Lot2")$PSI)
-
 t = 0.51745, df = 49, p-value = 0.6072
-
 alternative hypothesis: true mean is not equal to 1500
-
-95 percent confidence interval:
-
- 1499.423 1500.977
- 
+95 percent confidence interval: 1499.423 1500.977
 sample estimates:
-	mean of x 
-   		1500.2 
+mean of x 
+1500.2 
 
-The results of the t-test to test if the PSI mean for Lot1 is statistically different from the population mean of 1,500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 1 shows that the mean for Lot1 is exactly the same same as the population mean of 1500 PSI.
+The results of the t-test to test if the PSI mean for Lot2 is statistically different from the population mean of 1,500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 0.6072 is higher than the critical value of 0.05, the null hypothese is acceped as there is not a difference between the means of the PCI for the population. 
 
 # Lot 3 Suspension Coil t-test:
 
@@ -112,5 +106,20 @@ alternative hypothesis: true mean is not equal to 1500
 sample estimates:
 mean of x 
   1496.14 
-  
-# Study comparing the MechaCar to the Competition
+ 
+The results of the t-test to test if the PSI mean for Lot3 is statistically different from the population mean of 1,500 pounds per square inch show that the two means are statistically different. Because the p-value of 0.04168 is lower than the critical value of 0.05, the null hypothesis should be rejected because there is a difference between the means of the PSI for the population and Lot3 and the true mean is not equal to 1500. 
+
+
+## Study comparing the MechaCar Vs Competition
+
+In looking at how the MechaCar performs againts the competition an independant t-test could be used to determine the estimated total cost including initial price, repairs and maintenance costs. An additional study on highway and city fuel effciency incomparison to the competitions will help with the total costs to drive. 
+
+The metric that is going to be tested is the overall cost of ownership.  This will include the initial price, estimated costs of repairs and maintenance, as well as the cost to drive including fuel efficiencty. 
+
+The null Hypothesis is that the MechaCar will have lower overall cost of ownership it is 10% more efficient than the competetors. 
+
+An independent t-test could be used because it will compare the means of the total costs of the two different groups, MechaCar and the competition, to determine whether the associated population means are significantly different.
+
+The data needed include the average highway and city miles per gallon, initial cost, estimated repair costs, estimated maintenance costs.
+
+
