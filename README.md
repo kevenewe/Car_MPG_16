@@ -14,7 +14,8 @@ Residuals:
 
 Coefficients:
 
-![image](https://user-images.githubusercontent.com/117044267/222483378-354ac44a-5e1d-4584-9853-a504021d4c8b.png)
+![image](https://user-images.githubusercontent.com/117044267/222483854-ed2a07de-1fbc-4401-95eb-640958369b7f.png)
+
 
 
 Residual standard error: 8.774 on 44 degrees of freedom Multiple R-squared:  0.7149,    Adjusted R-squared:  0.6825 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
