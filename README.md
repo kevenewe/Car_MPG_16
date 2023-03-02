@@ -22,7 +22,7 @@ Residual standard error: 8.774 on 44 degrees of freedom Multiple R-squared:  0.7
 
 # Suspension Coils
 
-Summary statistics of the mean, median, variance, and standard deviation of the PSI were pulled and are shown below for all of the suspension coils and for the differnt manufacturing lots. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Based on the variance of the suspension coils in the total summary, the suspension coils overall meet the MechaCar design specifications. However, the lot summary shows that while manufacturing Lots 1 and 2 meet the design specifications and have variances under 100 PSI, Lot 3 does not meet the design specifications as its variance is much over the 100 PSI limit.
+Summary statistics of the mean, median, variance, and standard deviation of the PSI were pulled and are shown below for all of the suspension coils and for the different manufacturing lots. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Based on the variance of the suspension coils in the total summary, the suspension coils overall meet the MechaCar design specifications. However, the lot summary shows that while manufacturing Lots 1 and 2 meet the design specifications and have variances under 100 PSI, Lot 3 does not meet the design specifications as its variance is much over the 100 PSI limit.
 
 ## Total Summary
 
@@ -54,7 +54,7 @@ sample estimates:
   mean of x 
     1498.78 
 
-The results of the t-test to show if the PSI mean is statistically different from the population mean of 1500 pounds per suare inch. At a 95% confidence level, the two means are not statistically different. The p-value of 0.06028 is higher the the critical value of 0.05. The null hypothesis is accepted. 
+The results of the t-test to show if the PSI mean is statistically different from the population mean of 1500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 0.06028 is higher than the critical value of 0.05. The null hypothesis is accepted. 
 
 # Lot 1 Suspension Coil T-Test:
 
@@ -72,7 +72,7 @@ sample estimates:
 mean of x 
      1500 
 
-The results of the t-test to test if the PSI mean for Lot1 is statistically different from the population mean of 1,500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 1 shows that the mean for Lot1 is exactly the same same as the population mean of 1500 PSI.
+The results of the t-test to test if the PSI mean for Lot1 is statistically different from the population mean of 1,500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 1 shows that the mean for Lot1 is exactly the same as the population mean of 1500 PSI.
 
 # Lot 2 Suspension Coil t-test:
 
@@ -89,7 +89,7 @@ sample estimates:
 mean of x 
 1500.2 
 
-The results of the t-test to test if the PSI mean for Lot2 is statistically different from the population mean of 1,500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 0.6072 is higher than the critical value of 0.05, the null hypothese is acceped as there is not a difference between the means of the PCI for the population. 
+The results of the t-test to test if the PSI mean for Lot2 is statistically different from the population mean of 1,500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 0.6072 is higher than the critical value of 0.05, the null hypothesis is accepted as there is not a difference between the means of the PCI for the population. 
 
 # Lot 3 Suspension Coil t-test:
 
@@ -112,14 +112,15 @@ The results of the t-test to test if the PSI mean for Lot3 is statistically diff
 
 ## Study comparing the MechaCar Vs Competition
 
-In looking at how the MechaCar performs againts the competition an independant t-test could be used to determine the estimated total cost including initial price, repairs and maintenance costs. An additional study on highway and city fuel effciency incomparison to the competitions will help with the total costs to drive. 
+In looking at how the MechaCar performs against the competition an independent t-test could be used to determine the estimated total cost including initial price, repairs and maintenance costs. An additional study on highway and city fuel efficiency in comparison to the competitions will help with the total costs to drive. 
 
-The metric that is going to be tested is the overall cost of ownership.  This will include the initial price, estimated costs of repairs and maintenance, as well as the cost to drive including fuel efficiencty. 
+The metric that is going to be tested is the overall cost of ownership.  This will include the initial price, estimated costs of repairs and maintenance, as well as the cost to drive including fuel efficiency. 
 
-The null Hypothesis is that the MechaCar will have lower overall cost of ownership it is 10% more efficient than the competetors. 
+The null Hypothesis is that the MechaCar will have lower overall cost of ownership it is 10% more efficient than the competitors. 
 
 An independent t-test could be used because it will compare the means of the total costs of the two different groups, MechaCar and the competition, to determine whether the associated population means are significantly different.
 
 The data needed include the average highway and city miles per gallon, initial cost, estimated repair costs, estimated maintenance costs.
+
 
 
