@@ -72,6 +72,8 @@ sample estimates:
 mean of x 
      1500 
 
+The results of the t-test to test if the PSI mean for Lot1 is statistically different from the population mean of 1,500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 1 shows that the mean for Lot1 is exactly the same same as the population mean of 1500 PSI.
+
 # Lot 2 Suspension Coil t-test:
 
 Call: 
@@ -80,13 +82,20 @@ t.test((subset(Coil_table, Manufacturing_Lot == "Lot2")$PSI),mu=(1500))
 	One Sample t-test
 
 data:  (subset(Coil_table, Manufacturing_Lot == "Lot2")$PSI)
+
 t = 0.51745, df = 49, p-value = 0.6072
+
 alternative hypothesis: true mean is not equal to 1500
+
 95 percent confidence interval:
+
  1499.423 1500.977
+ 
 sample estimates:
-mean of x 
-   1500.2 
+	mean of x 
+   		1500.2 
+
+The results of the t-test to test if the PSI mean for Lot1 is statistically different from the population mean of 1,500 pounds per square inch. At a 95% confidence level, the two means are not statistically different. The p-value of 1 shows that the mean for Lot1 is exactly the same same as the population mean of 1500 PSI.
 
 # Lot 3 Suspension Coil t-test:
 
