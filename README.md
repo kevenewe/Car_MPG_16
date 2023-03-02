@@ -57,3 +57,51 @@ sample estimates:
 The results of the t-test to show if the PSI mean is statistically different from the population mean of 1500 pounds per suare inch. At a 95% confidence level, the two means are not statistically different. The p-value of 0.06028 is higher the the critical value of 0.05. The null hypothesis is accepted. 
 
 # Lot 1 Suspension Coil T-Test:
+
+Call:
+t.test((subset(Coil_table, Manufacturing_Lot == "Lot1")$PSI),mu=(1500))
+
+	One Sample t-test
+
+data:  (subset(Coil_table, Manufacturing_Lot == "Lot1")$PSI)
+t = 0, df = 49, p-value = 1
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.719 1500.281
+sample estimates:
+mean of x 
+     1500 
+
+# Lot 2 Suspension Coil t-test:
+
+Call: 
+t.test((subset(Coil_table, Manufacturing_Lot == "Lot2")$PSI),mu=(1500))
+
+	One Sample t-test
+
+data:  (subset(Coil_table, Manufacturing_Lot == "Lot2")$PSI)
+t = 0.51745, df = 49, p-value = 0.6072
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.423 1500.977
+sample estimates:
+mean of x 
+   1500.2 
+
+# Lot 3 Suspension Coil t-test:
+
+Call:
+t.test((subset(Coil_table, Manufacturing_Lot == "Lot3")$PSI),mu=(1500))
+
+	One Sample t-test
+
+data:  (subset(Coil_table, Manufacturing_Lot == "Lot3")$PSI)
+t = -2.0916, df = 49, p-value = 0.04168
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1492.431 1499.849
+sample estimates:
+mean of x 
+  1496.14 
+  
+# Study comparing the MechaCar to the Competition
